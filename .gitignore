@@ -1,0 +1,19 @@
+# Python environment and caches (.venv is 6.2 GB; recreate it with: python3 -m venv .venv && .venv/bin/python -m pip install -r requirements.txt)
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter autosaves (data/.ipynb_checkpoints holds a second 150 MB copy of the dataset)
+.ipynb_checkpoints/
+
+# The dataset: 150 MB, above GitHub's 100 MB file limit. The code downloads the identical
+# OpenML dataset 42175 automatically when data/creditcard.csv is missing.
+data/creditcard.csv
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+modifications_summary.md

@@ -1,0 +1,14 @@
+,B0 Task 1 baseline,B6 current best
+training executions,1150500.0,690300.0
+validation executions,1708860.0,170886.0
+test executions,56962.0,56962.0
+total executions,2916322.0,918148.0
+total shots,2986313728.0,940183552.0
+QPU hours,82.95315911111112,26.11620977777778
+calibration windows,28.0,9.0
+recalibrations during training,27.0,8.0
+gates,93.0,29.0
+two-qubit gates,33.0,6.0
+depth,45.0,13.0
+noise locations,126.0,35.0
+trainable circuit parameters,32.0,19.0
